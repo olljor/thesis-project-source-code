@@ -1,2 +1,6 @@
-# thesis-project-source-code
-This is the source code of a thesis project conducted at the University of Skövde by Olle Jörlid &amp; Erik Sundbeck
+# Performance Evaluation of Two Machine Learning Algorithms for Classification in a Production Line 
+### Comparing Artificial Neural Network and Support Vector Machine using a Quasi-Experiment
+This is the source code of a BA thesis project conducted at the University of Skövde by Olle Jörlid &amp; Erik Sundbeck.
+
+### Abstract 
+This thesis investigated the possibility of using machine learning algorithms for classifying items in a queuing system to optimize a production line. The evaluated algorithms are Artificial Neural Network (ANN) and Support Vector Machine (SVM), selected based on other research projects. A quasi-experiment evaluates the two machine learning algorithms trained on the same data. The dataset used in the experiment was complex and contained 47,212 rows of samples with features of items from a production setting. Both models performed better than the current system, with ANN reaching 97,5\% and SVM 98\% on all measurements. The ANN and SVM models differed in training time where ANN took almost 205 seconds and SVM took 1.97 seconds, ANN was however 20 times faster to classify. We conclude that ANN and SVM are feasible options for using Artificial Intelligence (AI) to classify items in an industrial environment with similar scenarios. 
